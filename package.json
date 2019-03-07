@@ -4,7 +4,8 @@
   "description": "Sinon Playground to demonstrate stub behaviour with respect to modules.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require test-bootstrap.js"
+    "test": "mocha --require test-bootstrap.js",
+    "test:debug": "mocha --inspect-brk --require test-bootstrap.js"
   },
   "author": "Gilbert Holland-Lloyd",
   "license": "MIT",
