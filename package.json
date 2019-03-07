@@ -1,0 +1,16 @@
+{
+  "name": "sinon-playground",
+  "version": "0.0.1",
+  "description": "Sinon Playground to demonstrate stub behaviour with respect to modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require test-bootstrap.js"
+  },
+  "author": "Gilbert Holland-Lloyd",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "sinon": "^7.2.7"
+  }
+}
